@@ -14,9 +14,19 @@ header {
   padding: 2% 10%;
 }
 
+.hero.container {
+  display: flex;
+  gap: 30px;
+}
+
+.hero > div {
+  flex: 1;
+}
+
 .logo {
   font-size: 24px;
   font-weight: 900;
+  margin: 20px 0;
 }
 
 nav {
@@ -49,6 +59,7 @@ footer {
 }
 
 .btn {
+  margin: 10px 0;
   background: #3882f6;
   color: #f9faf8;
   display: inline-block;
