@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero p,
+nav a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+header,
+.hero,
+footer {
+  background-color: #1f2937;
+}
+
+.btn {
+  background: #3882f6;
+  color: #f9faf8;
+  display: inline-block;
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  text-decoration: none;
+  text-align: center;
+}
