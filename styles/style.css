@@ -58,6 +58,10 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-weight: 900;
+}
+
 .hero p,
 nav a {
   color: #e5e7eb;
@@ -120,6 +124,21 @@ cite {
   font-size: 24px;
   display: block;
   text-align: right;
+}
+
+section.action {
+  background: #3882f6;
+  color: #f9faf8;
+  margin: 5% 10%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.btn.action {
+  border: 1px solid #f9faf8;
 }
 
 footer {
