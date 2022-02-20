@@ -102,3 +102,22 @@ footer {
   border: 2px solid blue;
   border-radius: 10px;
 }
+
+.container.quote {
+  margin-top: 80px;
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.quote > p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+cite {
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  text-align: right;
+}
